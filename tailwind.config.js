@@ -2,7 +2,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+       'main-screen': "url('./assets/img/main_screen.jpg')",
+      }
+    }
   },
   variants: {
     extend: {},
